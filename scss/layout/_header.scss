@@ -11,34 +11,23 @@
 
 .hero{
 
-
     &__text{
         flex:2;
-  
-       
     }
     
     &__title{
         font-family: 'work sans', sans-serif;
         font-size: $h1;
         font-weight: 400;
-        letter-spacing: 1px;
         margin: $margin-small 0;
         color:$black;
         line-height: 1.1;
-        
     }
 
     &__paragraph{
       max-width: 60rem;
     }
     
-    &__images{
-        max-height: 10rem;
-
-
-    }
-
     &__image{
       
         max-width: 100%;

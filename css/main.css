@@ -32,11 +32,6 @@ html {
   font-size: 62.5%;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 body {
   font-family: "work sans", sans-serif;
   font-size: 1.6rem;
@@ -110,6 +105,7 @@ h5 {
   padding: 1.3rem 3.3rem;
   font-size: 1.6rem;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .row {
@@ -138,16 +134,12 @@ h5 {
   font-family: "work sans", sans-serif;
   font-size: 4.883rem;
   font-weight: 400;
-  letter-spacing: 1px;
   margin: 2rem 0;
   color: #010101;
   line-height: 1.1;
 }
 .hero__paragraph {
   max-width: 60rem;
-}
-.hero__images {
-  max-height: 10rem;
 }
 .hero__image {
   max-width: 100%;
@@ -171,7 +163,7 @@ h5 {
   font-weight: 500;
   text-decoration: none;
   color: #1C2541;
-  font-size: 2.5rem;
+  font-size: 3.125rem;
 }
 .navigation__link {
   font-size: 1.6rem;
@@ -192,6 +184,15 @@ h5 {
   height: 100vh;
   position: relative;
   background-image: url(../assets/img/about_bg-01.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services {
+  height: 100vh;
+  position: relative;
+  background-image: url(../assets/img/services_background.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
