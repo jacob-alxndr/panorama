@@ -6,34 +6,4 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-
-    &__text{
-
-        padding-left: $padding-huge;
-       
-    }
-    
-    &__title{
-
-       
-        font-size: $h2;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin: $margin-small 0;
-        color:$black;
-        line-height: 1.2;
-        
-    }
-    
-    &__images{
-        min-height:2rem;
-
-
-    }
-
-    &__image{
-        width: 45rem;
-
-    }
 }

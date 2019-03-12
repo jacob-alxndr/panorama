@@ -32,6 +32,11 @@ html {
   font-size: 62.5%;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 body {
   font-family: "work sans", sans-serif;
   font-size: 1.6rem;
@@ -111,7 +116,6 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-content: baseline;
-  max-width: 130rem;
   padding-top: 25rem;
 }
 .row__box {
@@ -127,7 +131,7 @@ h5 {
 }
 
 .hero__text {
-  padding-right: 10rem;
+  flex: 2;
 }
 .hero__title {
   font-family: "work sans", sans-serif;
@@ -139,10 +143,10 @@ h5 {
   line-height: 1.1;
 }
 .hero__images {
-  min-height: 2rem;
+  max-height: 10rem;
 }
 .hero__image {
-  width: 45rem;
+  max-width: 100%;
 }
 
 .navigation {
@@ -187,23 +191,6 @@ h5 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.about__text {
-  padding-left: 10rem;
-}
-.about__title {
-  font-size: 3.906rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 2rem 0;
-  color: #010101;
-  line-height: 1.2;
-}
-.about__images {
-  min-height: 2rem;
-}
-.about__image {
-  width: 45rem;
 }
 
 /*# sourceMappingURL=main.css.map */

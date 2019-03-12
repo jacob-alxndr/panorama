@@ -12,8 +12,8 @@
 
 
     &__text{
-    
-        padding-right: $padding-huge;
+        flex:2;
+        // padding-right: $padding-huge;
        
     }
     
@@ -29,15 +29,14 @@
     }
     
     &__images{
-
-        min-height:2rem;
+        max-height: 10rem;
 
 
     }
 
     &__image{
       
-        width: 45rem;
+        max-width: 100%;
 
     }
 }
