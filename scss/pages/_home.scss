@@ -1,25 +1,39 @@
 .about{
     height:100vh;
     position: relative;
-    background-color: $color-primary;
+    background-image: 
+    url(../assets/img/about_bg-01.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-        &__copy{
-            @include center;
-            color: $off-white;
-            margin-right:-50%;
-            max-width: 80rem;
-        }
+
+    &__text{
+
+        padding-left: $padding-huge;
+       
+    }
+    
+    &__title{
+
+       
+        font-size: $h2;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: $margin-small 0;
+        color:$black;
+        line-height: 1.2;
         
-        &__title{
-            font-size: $h4;
-            font-weight: 100;
-            margin-bottom: 5rem;
-            text-transform: uppercase;
-        }
-        
-        &__paragraph{
-            font-size: $h3;
-            font-weight: 300;
-      
-        }
+    }
+    
+    &__images{
+        min-height:2rem;
+
+
+    }
+
+    &__image{
+        width: 45rem;
+
+    }
 }

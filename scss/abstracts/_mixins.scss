@@ -1,4 +1,4 @@
-@mixin center {
+@mixin center() {
     position: absolute;
     top:50%;
     left:50%;
@@ -35,17 +35,17 @@
 
 
 //FLEX-BOX GRID
-@mixin flex-grid {
+@mixin flex-grid() {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-@mixin flex-item {
+@mixin flex-item() {
     flex: 1;
 }
 
-@mixin flex-center {
+@mixin flex-center() {
     display: flex;
     justify-content: center;
     align-items: center;

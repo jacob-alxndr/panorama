@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,700');
 
 body {
     font-family: 'work sans', sans-serif;
@@ -36,6 +35,10 @@ h5{
 
 //UTILITY TYPOGRAPHY
 .paragraph {
+        font-weight: 300;
+        margin: 0 0 $margin-small 0;
+        font-size: $h5;
+
     &__small {font-size: 1.5rem;}
     &__grey {color: $light-text;}
 }

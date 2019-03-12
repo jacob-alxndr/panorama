@@ -1,30 +1,35 @@
 // COLORS
-$color-primary: #dd5d49;
-$color-secondary:#dd5d49;
-$color-tertiary: #dd5d49;;
+$color-primary: #9EC5AB;
+$color-secondary:#F4E7D7;
+$color-tertiary: #1C2541;;
 $white: #fff;
 $off-white: #f1f1f1;
 $light-grey: #eee;
-$light-text: rgb(80, 80, 80);
-$dark-text: #222;
 $black:#010101;
 
+$light-text: rgb(80, 80, 80);
+$dark-text: #222;
+
 //FONTS
-$h1: 6rem;
-$h2: 4.5rem;
-$h3: 3.375rem;
+$h1: 4.883rem;
+$h2: 3.906rem;
+$h3: 3.125rem;
 $h4: 2.5rem;
-$h5: 1.5rem;
-$p-small: 15px;
+$h5: 1.6rem;
+$p-small: 1.280px;
 
 //MARGINS
+$margin-xs: 1rem;
 $margin-small: 2rem;
 $margin-medium: 4rem;
 $margin-large: 6rem;
 $margin-huge: 10rem;
+$margin-mega: 15rem;
 
 //PADDING
+$padding-xs: 1rem;
 $padding-small: 2rem;
 $padding-medium: 4rem;
 $padding-large: 6rem;
 $padding-huge: 10rem;
+$padding-mega: 15rem;
