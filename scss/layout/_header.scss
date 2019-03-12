@@ -1,0 +1,72 @@
+.header{
+    // background-image: 
+    // url(../img/fire__logo--hero-01.png);
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-color: $black;
+    // background-blend-mode: lighten;
+   
+    height:100vh;
+    /* background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0, 0, 0, 1)),url(../img/rock.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    &__logo{
+        z-index: 5;
+        position: fixed;
+        top:2rem;
+        left:1rem;
+        width:8rem;
+        display: block;
+        cursor: pointer;
+        animation: fadeIn 1.3s;
+    }
+
+    &__image{
+        width: 100%;
+    }
+}
+
+.hero{
+
+    &__heading{
+        @include center;        
+        left:40%;
+        color: $off-white;
+    
+    }
+    
+    &__intro{
+        font-size: $h5;
+        font-weight: 300;
+        text-transform: uppercase;
+        color:$color-secondary;
+        margin-bottom: $margin-large;
+        animation: FadeLeft 1.1s;
+    
+    }
+    
+    &__title{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-size: $h1;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: $margin-small 0 $margin-small 0rem;
+        text-transform: capitalize;
+        animation: FadeLeft 1.1s;
+        color:$off-white;
+        line-height: 1.5;
+    
+    }
+    
+    &__paragraph {
+        font-weight: 100;
+        margin: 0 0 $margin-medium 0;
+        letter-spacing: 2px;
+        animation: FadeLeft 1.3s;
+    
+    }
+}

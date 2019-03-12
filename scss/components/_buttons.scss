@@ -1,0 +1,55 @@
+.btn{
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: $off-white;
+    color:$black;
+    border: 1px solid $off-white;
+    cursor: pointer;
+  
+
+  &--big{
+
+    border-radius: .4rem;
+    position: relative;
+    animation: FadeLeft 1.5s;
+    transition: all 1s ease;
+
+    &:hover{
+      color: $off-white;
+      background-color: $black;
+    }
+
+
+      &:after,
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: $color-primary;
+        transition: all 1s ease;
+        z-index: -1;
+    
+      } 
+      &:hover:after {
+        width: 100%;
+      }
+  }
+
+  &--home{
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    transition: all 200ms ease-in-out;
+      
+      &:hover{
+        background-color: $off-white;
+        transform: scale(1.3);    
+      }
+  }
+}
+
