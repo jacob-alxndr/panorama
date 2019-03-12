@@ -123,10 +123,11 @@ h5 {
 }
 
 .header {
-  background-image: url(../assets/img/hero_bg-01.svg);
+  background-image: url(../assets/img/hero_background.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #fff9f0;
   height: 100vh;
 }
 
@@ -141,6 +142,9 @@ h5 {
   margin: 2rem 0;
   color: #010101;
   line-height: 1.1;
+}
+.hero__paragraph {
+  max-width: 60rem;
 }
 .hero__images {
   max-height: 10rem;
