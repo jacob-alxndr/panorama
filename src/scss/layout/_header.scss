@@ -1,7 +1,7 @@
 .header{
 
     background-image: 
-    url(../assets/img/hero_background.svg),;
+    url(./assets/img/hero_background.svg),;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,18 +18,18 @@
     &__title{
         font-family: 'work sans', sans-serif;
         font-size: $h1;
-        font-weight: 400;
-        margin: $margin-small 0;
+        font-weight: 500;
+        margin: $margin-xs 0 $margin-medium 0;
         color:$black;
-        line-height: 1.1;
+        line-height: 1.3;
     }
 
     &__paragraph{
-      max-width: 60rem;
+      max-width: 70rem;
     }
     
     &__image{
-        max-width: 100%;
+        max-width: 50rem;
 
     }
 }
