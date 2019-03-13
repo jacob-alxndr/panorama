@@ -55,7 +55,7 @@ gulp.task("watch", function () {
       })
 
       gulp.watch("src/*.html", ["html"]).on("change",browserSync.reload)
-      gulp.watch("src/css/app.scss", ["sass"])
+      gulp.watch("src/scss/*/*.scss", ["sass"])
       gulp.watch("src/assets/fonts/*", ["fonts"])
       gulp.watch("src/assets/img/*", ["img"])
 })
