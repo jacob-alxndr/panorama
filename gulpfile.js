@@ -4,6 +4,7 @@ var cleanCss = require('gulp-clean-css')
 var sourceMaps = require('gulp-sourcemaps')
 var browserSync = require('browser-sync').create()
 var imageMin = require('gulp-imagemin')
+var ghPages = require('gh-pages')
 
 sass.compiler = require('node-sass')
 
@@ -58,6 +59,10 @@ gulp.task("watch", function () {
       gulp.watch("src/scss/*/*.scss", ["sass"])
       gulp.watch("src/assets/fonts/*", ["fonts"])
       gulp.watch("src/assets/img/*", ["img"])
+})
+
+gulp.task("deploy", function(){
+      ghPages.publish('dist');
 })
 
 gulp.task('default', ["html", "sass", "fonts", "img", "watch"])
