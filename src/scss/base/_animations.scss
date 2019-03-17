@@ -22,3 +22,21 @@
 }
 
 
+@keyframes float {
+
+   0%{
+      transform: translateY(5px) rotate(-2deg);
+
+}
+
+50%{
+   transform: translateY(-5px) rotate(2deg);
+}
+
+
+100%{
+   transform: translateY(5px) rotate(-2deg);
+}
+
+
+}

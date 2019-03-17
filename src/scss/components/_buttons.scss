@@ -10,10 +10,20 @@
       position: relative;
       background-color: $color-tertiary;
       color: $off-white;
+      border: 2px solid transparent;
       padding: 1.3rem 3.3rem;
       font-size: 1.3rem;
       text-transform: uppercase;
       letter-spacing: 2px;
+      animation: fadeIn 1.8s ease-in-out;
+      transition: all .5s;
+
+    }
+
+    &:hover{
+      background-color:transparent;
+      color:$color-tertiary;
+      border: 2px solid $color-tertiary;
     }
    
   }
