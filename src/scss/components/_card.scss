@@ -5,32 +5,45 @@
     background-color: transparent;
     border-radius: 0 0 1rem 1rem;
     // box-shadow: 2px 2px 15px #aaa;
+    &>*:not(:last-child){
+        margin-bottom: 1rem;
+    }
 
     &:not(:last-child){
         margin-right:9.2rem;   
+        @include respond(tab-port2){
+            margin: 0 0 $margin-huge 0;
+        }
     }
 
     &__image-box{
     width:20rem;
     border-radius: 0 0 1rem 1rem;
-    margin-bottom: 4rem;
     animation: float 4s infinite;
+
+    @include respond(tab-port2){
+        margin: 0 auto;
+    }
 
     }
 
     &__image{
-    width:120%;
+    width:100%;
 
     }
 
     &__title{
         font-weight: 400;
-        margin-bottom: 1rem;
+
+        @include respond(tab-port2){
+            text-align: center
+        }
+      
     }
     &__subtitle{
         font-size: 1.4rem;
         font-weight: 400;
-        margin-bottom: 1rem;
+   
         color:$light-text;
     }
 

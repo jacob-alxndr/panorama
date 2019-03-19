@@ -16,8 +16,8 @@
         @media (max-width: 37.5em) {@content};      //600px
     }
 
-    @if $breakpoint == tab-port {
-        @media (max-width: 60em) {@content};        //960px
+    @if $breakpoint == tab-port2 {
+        @media (max-width: 42em) {@content};        //672px
     }
 
     @if $breakpoint == tab-port1 {
