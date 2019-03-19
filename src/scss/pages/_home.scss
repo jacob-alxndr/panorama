@@ -19,6 +19,9 @@
             @include respond(tab-port2){
                 font-size: $h2;
             }
+            @include respond(phone){
+                font-size: $h3;
+            }
         }
     
         &__paragraph{
@@ -33,6 +36,11 @@
             @include respond(tab-port2){
                 margin: 0 auto $margin-medium auto;
                 max-width: 35rem; 
+
+            @include respond(phone){
+                max-width: 25rem; 
+
+            }
             
             }
       

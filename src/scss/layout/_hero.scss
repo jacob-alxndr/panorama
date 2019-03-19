@@ -35,6 +35,11 @@
         @include respond(tab-port2){
             font-size: $h2;
         }
+        @include respond(phone){
+            font-size: $h3;
+            line-height: 1.1;
+            
+        }
     }
 
     &__paragraph{
@@ -43,7 +48,6 @@
     //   animation: fadeIn 1.6s ease-in-out;
 
         @include respond(tab-port2){
-          
             font-size: 1.5rem;
         }
     }
@@ -54,6 +58,11 @@
         
         @include respond(tab-port1){
             max-width: 35rem; 
+            
+        }
+
+        @include respond(phone){
+            max-width: 25rem; 
             
         }
     }
