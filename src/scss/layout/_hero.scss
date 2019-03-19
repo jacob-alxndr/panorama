@@ -6,13 +6,23 @@
     &__heading{
         padding-top: 23rem;
         flex-direction: row-reverse;
-        @include respond(tab-port2){
+        @include respond(tab-port1){
             padding-top: $padding-large;
         }
     }
 
     &__text{
-        >*:not(:last-child){margin-bottom: $margin-small;}
+        @include respond(tab-port1){
+            margin: 0 auto;
+        }
+
+        >*:not(:last-child){
+            margin-bottom: $margin-small;
+        
+            @include respond(tab-port1){
+                margin-bottom:$margin-xs;
+            }
+        }
     }
 
     &__title{
@@ -33,7 +43,7 @@
     //   animation: fadeIn 1.6s ease-in-out;
 
         @include respond(tab-port2){
-           
+          
             font-size: 1.5rem;
         }
     }
@@ -42,8 +52,9 @@
         max-width: 45rem;    
         margin: 0 auto $margin-medium auto;
         
-        @include respond(tab-port2){
+        @include respond(tab-port1){
             max-width: 35rem; 
+            
         }
     }
     

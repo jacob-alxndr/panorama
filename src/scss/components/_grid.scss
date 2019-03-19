@@ -2,13 +2,21 @@
         display:flex;
         justify-content:space-between;
         align-content:baseline;
-        @include respond(tab-land2) {
+        
+        &>*:not(:last-child){
+            @include respond(tab-port1) {
+                margin-bottom: $margin-large;
+    
+            }
+            
+        }
+
+        @include respond(tab-port1) {
             display: block;
 
         }
 
         &__box{
             flex:1;
-
         }
 }
