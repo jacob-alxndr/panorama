@@ -26,6 +26,10 @@
         margin: 0 auto;
     }
 
+    @include respond(phone){
+        width:25rem;
+    }
+
     }
 
     &__image{
