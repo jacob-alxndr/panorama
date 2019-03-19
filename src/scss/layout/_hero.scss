@@ -1,7 +1,7 @@
 .hero{
     background-color: $color-secondary;
     min-height: 100vh;
-    >*:not(:last-child){margin-bottom: $margin-large;}
+    >*:not(:last-child){margin-bottom: $margin-small;}
 
     &__heading{
         padding-top: 23rem;
@@ -58,6 +58,7 @@
         
         @include respond(tab-port1){
             max-width: 35rem; 
+            margin: 0 auto;
             
         }
 
