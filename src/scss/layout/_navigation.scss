@@ -15,10 +15,20 @@
         &__logo{
             display: inline-block;
             width: 9rem;
+            @include respond(tab-land2){
+                display: none;
+            }
         }
 
         .logo-image{
             width: 100%;
+        }
+
+        .links{
+            @include respond(tab-land){
+                margin: 0 auto;
+            }
+
         }
 
         &__link{
@@ -36,6 +46,9 @@
 
             &:not(:last-child){
                 margin-right: $margin-large;
+                @include respond(tab-land2){
+                    margin-right: $margin-huge;
+                }
             }     
         }
 }

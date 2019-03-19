@@ -2,8 +2,14 @@
         display:flex;
         justify-content:space-between;
         align-content:baseline;
+        @include respond(tab-land2) {
+            display: block;
+           
+
+        }
 
         &__box{
             flex:1;
+
         }
 }
