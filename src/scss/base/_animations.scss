@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+    0%{
+       opacity: 0;
+       transform: translateY(20vh);
+      
+    }
+
+
+    100%{opacity: 1;
+      transform: translateY(0);}
+}
+
+@keyframes FadeLeft {
+    0%{
+       opacity: 0;
+       transform: translateX(-100vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+
+@keyframes float {
+
+   0%{
+      transform: translateY(5px) rotate(-2deg);
+
+}
+
+50%{
+   transform: translateY(-5px) rotate(2deg);
+}
+
+
+100%{
+   transform: translateY(5px) rotate(-2deg);
+}
+
+
+}
