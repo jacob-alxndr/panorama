@@ -2,20 +2,32 @@
     min-height: 50vh;
     background-color: $color-secondary-dark;
 
+    @include respond(tab-port1){
+        padding-top:2rem;
+    }
  
 
     &__navigation{
-        margin-top:12rem;
+        margin-top:10rem;
         position: relative;
         border-top: 1px solid $color-tertiary;
         width: 90%;
         padding: $padding-small 0;
+
+        @include respond(tab-port1){
+                 
+
+        }
     }
    
     &__list{
         list-style: none;
         display: flex;
         justify-content: space-between;
+
+        @include respond(phone){
+            flex-direction: column;
+        }
     }
 
     &__item{
@@ -23,19 +35,25 @@
         &:not(:last-child){
             margin-right: $margin-medium;
         }
+        
     }
 
     &__link{
         color:$color-tertiary;
         text-decoration: none;
+        
     }
 
     &__copyright{
         width: 95%;
-        margin-top:12rem;
+        margin-top:10rem;
         border-top: 1px solid $color-tertiary;
         color:$color-tertiary;
         padding: $padding-small 0;
+
+        @include respond(phone){
+            margin-top:0;
+        }
     }
 
     &__logo{

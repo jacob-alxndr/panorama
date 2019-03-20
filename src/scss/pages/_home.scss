@@ -21,7 +21,7 @@
                 font-size: $h2;
             }
             @include respond(phone){
-                font-size: $h3;
+                font-size:$h4;
             }
         }
     
@@ -30,6 +30,9 @@
 
           @include respond(tab-port2){
             font-size: 1.5rem;
+        }
+        @include respond(phone){
+            font-size: 1.3rem;
         }
         }
         &__image-box{
@@ -53,6 +56,7 @@
     }
 
 .services{
+    padding-bottom:6rem;
     min-height: 100vh;
     background-color: $color-secondary;
     &__title{
@@ -64,12 +68,14 @@
             margin-bottom: $margin-medium;
         }
 
+       
+
         h2{
             font-size: $h1;
             font-weight: 500;
 
-            @include respond(tab-port1){
-            
+            @include respond(phone){
+                font-size:$h3;
             }
         }
     }

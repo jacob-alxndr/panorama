@@ -1,12 +1,12 @@
 
 
 .card{
-    padding:2rem;
-    border-radius:1rem;
+    padding:3rem;
+    border-radius:.5rem;
     background-color: transparent;
     // box-shadow: 2px 2px 15px #aaa;
     &>*:not(:last-child){
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
 
     @include respond(phone){
@@ -17,7 +17,7 @@
     &:not(:last-child){
         margin-right:9.2rem;   
         @include respond(tab-port1) {
-            margin: 0 0 $margin-huge 0;
+            margin: 0 0 $margin-large 0;
         }
     }
 
