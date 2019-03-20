@@ -19,7 +19,6 @@
       transition: all .5s;
 
       @include respond(phone){
-      // margin-top:$margin-medium;
       display:block;
       width:100%;         
     }

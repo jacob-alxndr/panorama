@@ -1,6 +1,7 @@
 .about{
     min-height: 100vh;
     background-color: $color-secondary;
+    padding-bottom:$padding-huge;
     @include flex-center;
    
     @include respond(tab-port1){
@@ -62,7 +63,7 @@
     }
 
 .services{
-    padding-bottom:6rem;
+    padding-bottom:$padding-huge;
     min-height: 100vh;
     background-color: $color-secondary;
     &__title{

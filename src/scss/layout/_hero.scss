@@ -1,6 +1,7 @@
 .hero{
     background-color: $color-secondary;
     min-height: 100vh;
+    padding-bottom:$padding-huge;
     >*:not(:last-child){
         margin-bottom: $margin-small;
     }
@@ -21,6 +22,8 @@
     }
 
     &__text{
+
+        margin-bottom: $margin-small;  
         @include respond(tab-port1){
             margin: 0 auto;
         }
@@ -31,6 +34,10 @@
             @include respond(tab-port1){
                 margin-bottom:$margin-xs;
             }
+        }
+
+        @include respond(phone){
+            margin-bottom: $margin-medium;   
         }
        
     }
@@ -64,7 +71,6 @@
 
         @include respond(phone){
             font-size: 1.3rem;
-            margin-bottom: $margin-medium;            
         }
     }
 
