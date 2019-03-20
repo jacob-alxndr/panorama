@@ -5,6 +5,10 @@
         margin-bottom: $margin-small;
     }
 
+    @include respond(phone){
+        min-height: 80vh; 
+    }
+
     
 
     &__heading{
