@@ -1,13 +1,18 @@
 
 
 .card{
-    padding:0rem;
+    padding:2rem;
+    border-radius:1rem;
     background-color: transparent;
-    border-radius: 0 0 1rem 1rem;
     // box-shadow: 2px 2px 15px #aaa;
     &>*:not(:last-child){
         margin-bottom: 1rem;
     }
+
+    @include respond(phone){
+        background-color: $color-secondary-dark;
+    }
+   
 
     &:not(:last-child){
         margin-right:9.2rem;   
@@ -20,6 +25,7 @@
     width:20rem;
     border-radius: 0 0 1rem 1rem;
     animation: float 4s infinite;
+    margin: 0 auto;
 
     @include respond(tab-port1){
         width:35rem;

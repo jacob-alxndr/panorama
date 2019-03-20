@@ -1,9 +1,9 @@
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    padding: $padding-small $padding-large;
+    padding: $padding-medium $padding-large;
     @include respond(tab-port2){
         position: absolute;
         padding: $padding-small $padding-medium;

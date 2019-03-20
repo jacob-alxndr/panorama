@@ -1,0 +1,52 @@
+.footer{
+    min-height: 50vh;
+    background-color: $color-secondary-dark;
+
+ 
+
+    &__navigation{
+        margin-top:12rem;
+        position: relative;
+        border-top: 1px solid $color-tertiary;
+        width: 90%;
+        padding: $padding-small 0;
+    }
+   
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item{
+        display: inline-block;
+        &:not(:last-child){
+            margin-right: $margin-medium;
+        }
+    }
+
+    &__link{
+        color:$color-tertiary;
+        text-decoration: none;
+    }
+
+    &__copyright{
+        width: 95%;
+        margin-top:12rem;
+        border-top: 1px solid $color-tertiary;
+        color:$color-tertiary;
+        padding: $padding-small 0;
+    }
+
+    &__logo{
+        
+        padding: $padding-huge 0;
+        max-width: 30rem;
+        text-align: center;
+    }
+
+    &__logo-image{
+      
+        width: 100%;
+    }
+}
