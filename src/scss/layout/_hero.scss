@@ -1,8 +1,5 @@
 .hero{
-    // background-image: url("../assets/img/hero_background.svg");
-    // background-size: cover;
-
-    background-color: $color-secondary;
+     background-color: $color-secondary;
     min-height: 100vh;
     >*:not(:last-child){margin-bottom: $margin-small;}
 
