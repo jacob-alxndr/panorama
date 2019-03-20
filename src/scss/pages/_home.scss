@@ -1,6 +1,7 @@
 .about{
-    min-height: 75vh;
+    min-height: 100vh;
     background-color: $color-secondary;
+    @include flex-center;
    
     @include respond(tab-port1){
         min-height: 85vh;
