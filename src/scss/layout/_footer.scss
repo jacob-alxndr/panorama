@@ -54,6 +54,10 @@
         @include respond(phone){
             margin-top:0;
         }
+
+        @include respond(phone){
+            font-size: 1.3rem;
+        }
     }
 
     &__logo{

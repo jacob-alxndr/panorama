@@ -50,6 +50,11 @@
             font-size: $h2;
             text-align: center
         }
+
+        @include respond(phone){
+            font-size: $h4;
+            text-align: center
+        }
       
     }
     &__subtitle{
@@ -64,11 +69,17 @@
     }
 
     &__paragraph{
+
         @include respond(tab-port1) {
             margin: 0 auto;
            max-width: 70rem;
-
         }
+
+        @include respond(phone){
+            font-size: 1.3rem;
+           
+        }
+      
     }
 
 } 
