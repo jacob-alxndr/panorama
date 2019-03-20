@@ -47,7 +47,7 @@
         font-weight: 500;
         color:$black;
         line-height: 1.2;
-        // animation: fadeIn 1.4s ease-in-out;
+        animation: fadeIn 1.4s ease-in-out;
 
         @include respond(tab-port2){
             font-size: $h2;
@@ -63,7 +63,7 @@
     &__paragraph{
       max-width: 63rem;
       line-height: 1.4;
-    //   animation: fadeIn 1.6s ease-in-out;
+      animation: fadeIn 1.6s ease-in-out;
 
         @include respond(tab-port2){
             font-size: 1.5rem;

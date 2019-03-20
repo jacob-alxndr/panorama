@@ -22,9 +22,9 @@
     }
 
     &__image-box{
-    width:20rem;
+    width:25rem;
     border-radius: 0 0 1rem 1rem;
-    animation: float 4s infinite;
+    
     margin: 0 auto;
 
     @include respond(tab-port1){
@@ -40,6 +40,7 @@
 
     &__image{
     width:100%;
+    animation: float 5s infinite;
 
     }
 
