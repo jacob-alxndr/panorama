@@ -18,6 +18,12 @@
       // animation: fadeIn 1.8s ease-in-out;
       transition: all .5s;
 
+      @include respond(phone){
+      // margin-top:$margin-medium;
+      display:block;
+      width:100%;         
+    }
+
     }
 
     &:hover{

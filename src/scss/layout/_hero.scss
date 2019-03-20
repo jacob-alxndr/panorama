@@ -1,11 +1,16 @@
 .hero{
-     background-color: $color-secondary;
+    background-color: $color-secondary;
     min-height: 100vh;
-    >*:not(:last-child){margin-bottom: $margin-small;}
+    >*:not(:last-child){
+        margin-bottom: $margin-small;
+    }
+
+    
 
     &__heading{
         padding-top: 23rem;
         flex-direction: row-reverse;
+
         @include respond(tab-port1){
             padding-top: $padding-large;
         }
@@ -23,6 +28,7 @@
                 margin-bottom:$margin-xs;
             }
         }
+       
     }
 
     &__title{
@@ -37,9 +43,10 @@
         }
         @include respond(phone){
             font-size: $h4;
-            line-height: 1.1;
-            
+            line-height: 1.1;   
         }
+    
+
     }
 
     &__paragraph{
