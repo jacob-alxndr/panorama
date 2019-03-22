@@ -25,19 +25,19 @@
 @keyframes float {
 
    0%{
-      transform: translateY(-8px) scale(1.05);
+      transform: translateY(-4px);
 
    }
 
    50%{
-      transform: translateY(8px) scale(1);
+      transform: translateY(4px);
     
       
    }
 
 
    100%{
-      transform: translateY(-8px) scale(1.05);
+      transform: translateY(-4px);
    }
 
 
